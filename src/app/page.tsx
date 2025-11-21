@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -127,8 +127,6 @@ export default function LandingPage() {
           carouselMode="buttons"
           className="py-20"
           containerClassName="max-w-6xl mx-auto px-4"
-          titleClassName="text-4xl font-bold mb-4"
-          descriptionClassName="text-lg opacity-80 max-w-2xl"
         />
       </div>
 
@@ -190,8 +188,6 @@ export default function LandingPage() {
           carouselMode="buttons"
           className="py-20 bg-gradient-to-b from-transparent to-accent/5"
           containerClassName="max-w-6xl mx-auto px-4"
-          titleClassName="text-4xl font-bold mb-4 text-center"
-          descriptionClassName="text-lg opacity-80 max-w-2xl mx-auto text-center"
         />
       </div>
 
@@ -229,8 +225,6 @@ export default function LandingPage() {
           carouselMode="buttons"
           className="py-20"
           containerClassName="max-w-6xl mx-auto px-4"
-          titleClassName="text-4xl font-bold mb-4 text-center"
-          descriptionClassName="text-lg opacity-80 max-w-2xl mx-auto text-center"
         />
       </div>
 
@@ -254,8 +248,6 @@ export default function LandingPage() {
           showCard={true}
           className="py-20"
           containerClassName="max-w-6xl mx-auto px-4"
-          titleClassName="text-3xl font-bold mb-2 text-center"
-          descriptionClassName="text-lg opacity-80 max-w-2xl mx-auto text-center mb-12"
         />
       </div>
 
@@ -306,8 +298,6 @@ export default function LandingPage() {
           textboxLayout="default"
           className="py-20"
           containerClassName="max-w-6xl mx-auto px-4"
-          titleClassName="text-4xl font-bold mb-4 text-center"
-          descriptionClassName="text-lg opacity-80 max-w-2xl mx-auto text-center mb-12"
         />
       </div>
 
